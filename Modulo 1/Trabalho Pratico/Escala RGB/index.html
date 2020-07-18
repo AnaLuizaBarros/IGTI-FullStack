@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Escala RGB</title>
+  </head>
+  <body>
+    <div id="Page">
+      <table>
+        <tr>
+          <label style="color: red;"
+            >(R) Vermelho:
+            <input type="range" min="0" max="255" id="inputRangeR" step="1" />
+            <input type="text" disabled id="inputTextR" size="10"
+          /></label>
+        </tr>
+        <tr>
+          <label style="color: green;"
+            >(G) Verde:
+            <input type="range" min="0" max="255" id="inputRangeG" step="1" />
+            <input type="text" disabled id="inputTextG" size="10"
+          /></label>
+        </tr>
+        <tr>
+          <label style="color: blue;"
+            >(B) Azul:
+            <input type="range" min="0" max="255" id="inputRangeB" step="1" />
+            <input type="text" disabled id="inputTextB" size="10"
+          /></label>
+        </tr>
+        <tr>
+          <input type="text" id="RGB" disabled />
+        </tr>
+      </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
